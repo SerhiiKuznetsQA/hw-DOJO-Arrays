@@ -15,3 +15,27 @@ for (let i = 0; i < newArray.length; i++) {
 }
  return newArray
 }
+
+
+export function insertHyphensBetweenEvenNumbers(str){
+    if(typeof(str)!=='string' ){
+         return `Sorry , data should be String`
+    }
+    let output = ''
+for (let i = 0; i < str.length; i++) {
+        console.log(str[i]);
+        let item = parseFloat(str[i]);
+        console.log(item);
+    if(item % 2 === 0){
+        output+="-" +item
+    }else{
+        output+=item
+    }
+    console.log(output);
+}
+ return output
+}
+
+
+console.log(insertHyphensBetweenEvenNumbers(str));
+

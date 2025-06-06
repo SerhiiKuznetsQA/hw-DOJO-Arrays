@@ -4,5 +4,5 @@ function getElementsFromEndArray2(arr,n=1){
     }
     let num = arr.length
     let startPosition  = num - n 
-    return arr.splice(startPosition)
+    return arr.slice(startPosition)
 }

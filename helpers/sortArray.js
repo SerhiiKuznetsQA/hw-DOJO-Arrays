@@ -1,4 +1,4 @@
-function ascSortArr(arrForSort){
+function ascSortArr(arr){
     const newArr2 = []
     const positiveNumber = []
  const newArr = arrForSort.reduce((prev,current,index)=>{
@@ -14,7 +14,7 @@ if(current<0){
 console.log(ascSortArr(arrForSort));
 
 
- export function sortNumbersInArray(arrForSort){
+ export function sortNumbersInArray(arr){
 if(!Array.isArray(arr)){
     return `Input Should be a Array`
 }else{
@@ -32,7 +32,7 @@ if(!Array.isArray(arr)){
 
 
 
-function sortNumbersInArray(arrForSort){
+function sortNumbersInArray(arr){
     const negativeNum = []
     const positiveNum = []
     for (let i = 0; i < arrForSort.length; i++) {
