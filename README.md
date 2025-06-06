@@ -1,4 +1,4 @@
-#🏠 Homework: Working with Arrays and Loops in JavaScript
+🏠 Homework: Working with Arrays and Loops in JavaScript
 📌 Description
 This repository contains a set of functions designed to practice basic JavaScript skills: working with arrays, conditions, loops, and basic algorithms.
 
