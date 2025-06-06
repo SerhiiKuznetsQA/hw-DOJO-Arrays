@@ -1,0 +1,13 @@
+{
+  "name": "hw-dojo-arrays",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Serhii_Kuznets <testopesto7@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.29"
+  }
+}
